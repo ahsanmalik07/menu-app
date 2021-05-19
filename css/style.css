@@ -1,4 +1,4 @@
-:root {
+    :root {
     --theme-color: #2ca391;
     --bg-color: #353b48;
     --font-color-cloud: black;
@@ -153,3 +153,9 @@ body {
     width: 200px;
     background-color: var(--theme-color);
 }
+
+@media screen and (max-width: 990px) {
+    .menu-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
