@@ -8,7 +8,7 @@ var menu = [{
 
     {
         name: "Omlete",
-        price: 15,
+        price: 30,
         details: "is really good",
         image: 'imgs/omlete.jpg',
         category: "Breakfast"
@@ -16,7 +16,7 @@ var menu = [{
 
     {
         name: "nihari",
-        price: 25,
+        price: 50,
         details: "is really good",
         image: 'imgs/nihari.jpg',
         category: "Breakfast"
@@ -26,7 +26,7 @@ var menu = [{
         name: "Club - Sandwich",
         price: 15,
         details: "is really good",
-        image: 'imgs/sandwich.jpg',
+        image: 'imgs/images.jpg',
         category: "Breakfast"
     },
 

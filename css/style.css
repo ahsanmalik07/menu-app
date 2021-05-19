@@ -117,4 +117,5 @@ body {
     max-height: 25rem;
     padding: 2rem;
     box-shadow: 8px 8px 50px rgb(218, 218, 221);
+    justify-content: space-around !important;
 }
