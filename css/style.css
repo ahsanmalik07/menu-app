@@ -160,3 +160,35 @@ body {
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+@media screen and (max-width: 690px) {
+    .menu-btns {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .menu-cat-btn {
+        margin: 5px;
+        height: 25px;
+        font-size: 0.8rem;
+    }
+    .item-box {
+        justify-content: center;
+        align-items: center;
+    }
+    .item-img {
+        left: 30px;
+    }
+    .item-info {
+        font-size: 0.8rem;
+        font-weight: 200;
+    }
+    .item-info h3 {
+        font-size: 2rem;
+        font-weight: 300;
+    }
+    .item-info h4 {
+        font-size: 1.6rem;
+        font-weight: 300;
+    }
+}
