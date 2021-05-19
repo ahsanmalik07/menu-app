@@ -1,7 +1,7 @@
 var menu = [{
         name: "Fries",
         price: 15,
-        details: "is really good",
+        details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repudiandae, harum aspernatur ad ullam temporibus delectus, laborum odio nihil itaque",
         image: 'imgs/fries.jpg',
         category: "Breakfast"
     },
@@ -9,7 +9,7 @@ var menu = [{
     {
         name: "Omlete",
         price: 30,
-        details: "is really good",
+        details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repudiandae, harum aspernatur ad ullam temporibus delectus, laborum odio nihil itaque",
         image: 'imgs/omlete.jpg',
         category: "Breakfast"
     },
@@ -17,7 +17,7 @@ var menu = [{
     {
         name: "nihari",
         price: 50,
-        details: "is really good",
+        details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repudiandae, harum aspernatur ad ullam temporibus delectus, laborum odio nihil itaque",
         image: 'imgs/nihari.jpg',
         category: "Breakfast"
     },
@@ -25,7 +25,7 @@ var menu = [{
     {
         name: "Club - Sandwich",
         price: 15,
-        details: "is really good",
+        details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repudiandae, harum aspernatur ad ullam temporibus delectus, laborum odio nihil itaque",
         image: 'imgs/images.jpg',
         category: "Breakfast"
     },
@@ -33,11 +33,17 @@ var menu = [{
     {
         name: "Pizza",
         price: 15,
-        details: "is really good",
+        details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repudiandae, harum aspernatur ad ullam temporibus delectus, laborum odio nihil itaque",
         image: 'imgs/pizza.jpg',
         category: "Lunch"
     },
-
+    {
+        name: "Roll Praths",
+        price: 15,
+        details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repudiandae, harum aspernatur ad ullam temporibus delectus, laborum odio nihil itaque",
+        image: 'imgs/roll-pratha.jpeg',
+        category: "Lunch"
+    },
     {
         name: "nihari",
         price: 25,
@@ -63,13 +69,7 @@ var menu = [{
         category: "Dinner"
     },
 
-    {
-        name: "roll-praths",
-        price: 15,
-        details: "is really good",
-        image: 'imgs/pizza.jpeg',
-        category: "Lunch"
-    },
+
 
     {
         name: "Pizza",
@@ -144,6 +144,7 @@ const addFoodItem = (item) => {
     </div>`;
     menuItem.innerHTML += html;
 };
+
 
 
 const getMenuItems = () => {

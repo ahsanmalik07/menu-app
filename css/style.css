@@ -119,3 +119,7 @@ body {
     box-shadow: 8px 8px 50px rgb(218, 218, 221);
     justify-content: space-around !important;
 }
+
+.item-img {
+    padding-right: 80px !important;
+}
