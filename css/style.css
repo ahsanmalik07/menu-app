@@ -2,7 +2,7 @@
     --theme-color: #2ca391;
     --bg-color: #353b48;
     --font-color-cloud: black;
-    --font-color-1: #ff3f34;
+    --font-color-1: black;
 }
 
 * {
@@ -17,17 +17,21 @@ body {
 }
 
 .menu-cat-btn {
-    width: 180px;
+    width: 140px;
     height: 40px;
     display: grid;
     place-items: center;
     background-color: var(--theme-color);
-    color: #ffffff;
+    color: #ffffff !important;
     box-shadow: 2px 2px 15px rgb(10, 187, 172);
     border-radius: 2.5em;
     font-size: 1.3em;
     font-weight: 500;
     font-family: 'Jura', sans-serif;
+}
+
+.menu-cat-btn a {
+    color: #ffffff !important;
 }
 
 .menu-cat-btn:hover {
@@ -122,4 +126,30 @@ body {
 
 .item-img {
     padding-right: 80px !important;
+}
+
+.item-info {
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+
+.item-info h3 {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.item-info h4 {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.item-info::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    height: 4px;
+    width: 200px;
+    background-color: var(--theme-color);
 }

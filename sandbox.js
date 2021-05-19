@@ -41,13 +41,13 @@ var menu = [{
         name: "Roll Praths",
         price: 15,
         details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repudiandae, harum aspernatur ad ullam temporibus delectus, laborum odio nihil itaque",
-        image: 'imgs/roll-pratha.jpeg',
+        image: 'imgs/roll-pratha.jpg',
         category: "Lunch"
     },
     {
         name: "nihari",
         price: 25,
-        details: "is really good",
+        details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repudiandae, harum aspernatur ad ullam temporibus delectus, laborum odio nihil itaque",
         image: 'imgs/nihari.jpg',
         category: "Dinner"
     },
@@ -56,7 +56,7 @@ var menu = [{
     {
         name: "Biryani",
         price: 25,
-        details: "is really good",
+        details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repudiandae, harum aspernatur ad ullam temporibus delectus, laborum odio nihil itaque",
         image: 'imgs/Biryani.jpg',
         category: "Dinner"
     },
@@ -64,25 +64,16 @@ var menu = [{
     {
         name: "Pizza",
         price: 15,
-        details: "is really good",
+        details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repudiandae, harum aspernatur ad ullam temporibus delectus, laborum odio nihil itaque",
         image: 'imgs/pizza.jpg',
         category: "Dinner"
     },
 
 
-
-    {
-        name: "Pizza",
-        price: 15,
-        details: "is really good",
-        image: 'imgs/pizza.jpg',
-        category: "Lunch"
-    },
-
     {
         name: "chicken-karahi",
         price: 15,
-        details: "is really good",
+        details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repudiandae, harum aspernatur ad ullam temporibus delectus, laborum odio nihil itaque",
         image: 'imgs/chicken-karahi.jpg',
         category: "Lunch"
     },
@@ -90,7 +81,7 @@ var menu = [{
     {
         name: "Mint Margarita",
         price: 15,
-        details: "is really good",
+        details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repudiandae, harum aspernatur ad ullam temporibus delectus, laborum odio nihil itaque",
         image: 'imgs/mint-marg.jpg',
         category: "Shakes"
     },
@@ -98,7 +89,7 @@ var menu = [{
     {
         name: "Mango Shake",
         price: 15,
-        details: "is really good",
+        details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repudiandae, harum aspernatur ad ullam temporibus delectus, laborum odio nihil itaque",
         image: 'imgs/mango-shake.jpg',
         category: "Shakes"
     },
@@ -106,7 +97,7 @@ var menu = [{
     {
         name: "Chocolate Shake",
         price: 15,
-        details: "is really good",
+        details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repudiandae, harum aspernatur ad ullam temporibus delectus, laborum odio nihil itaque",
         image: 'imgs/chock-shake.jpg',
         category: "Shakes"
     },
@@ -114,7 +105,7 @@ var menu = [{
     {
         name: "Strawberry Shake",
         price: 100,
-        details: "is really good",
+        details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repudiandae, harum aspernatur ad ullam temporibus delectus, laborum odio nihil itaque",
         image: 'imgs/straw-shake.jpg',
         category: "Shakes"
     }
@@ -136,8 +127,8 @@ const addFoodItem = (item) => {
             </div>
             <div class="col-md-6 col-xs-6 item-info ">
                 <h3>${item.name}</h3>
-                <h4>${item.price}</h4>
-                <p>${item.details}</p>
+                <h4>Price: ${item.price}</h4>
+                <p >${item.details}</p>
             </div>
 
         </div>
